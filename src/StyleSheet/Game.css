@@ -1,0 +1,41 @@
+.containerGame {
+  background: url(/public/Photos/77g.gif);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+.layout-game-container {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100vh;
+}
+.about-game-writen-container {
+  /* background-color: red; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.about-game-written-container-mini {
+  /* background-color: red; */
+  margin-top: 30px;
+  width: 65vw;
+  height: 50vh;
+  /* border: 2px solid #fff; */
+  box-shadow: 2px 2px 8px #ffffff6b;
+}
+.happy-halloween-heading {
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+  /* font-family: 'Darumadrop One', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif; */
+  font-family: "Roboto Mono", monospace;
+}
+.about-game-written-part {
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+  padding: 30px 30px;
+  text-align: justify;
+  line-height: 1.7;
+}
