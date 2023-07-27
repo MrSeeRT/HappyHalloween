@@ -1,0 +1,34 @@
+[{
+    "question" : "Is your option present in following options ?",
+    "1" : "Revenant",
+    "2" : "Onryo",
+    "3" : "Jinn",
+    "4" : "Hantu"
+},
+{
+    "question" : "Is your option present in following options ?",
+    "1" : "Revenant",
+    "2" : "Shade",
+    "3" : "Yokai",
+    "4" : "Raiju"
+},
+{
+    "question" : "Is your option present in following options ?",
+    "1" : "Onryo",
+    "2" : "Phantom",
+    "3" : "Shade",
+    "4" : "Demon"
+},
+{
+    "question" : "Is your option present in following options ?",
+    "1" : "Banshee",
+    "2" : "Jinn",
+    "3" : "Yokai",
+    "4" : "Shade"
+},
+{"question" : "Is your option present in following options ?",
+"1" : "Banshee",
+"2" : "Hantu",
+"3" : "Raiju",
+"4" : "Demon"}
+]

@@ -1,8 +1,76 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.main-block{
+    background: url(/public/Photos/27994781.jpg);
+    height: 100vh;
+    background-size: cover;
 }
-h1{
-    color: black;
+.black-layer{
+    background: rgba(0, 0, 0, 0.4);
+    height: 100vh;
 }
+.welcome-heading{
+    color: rgba(203, 148, 54, 0.959) ;
+    margin: 2vh 8.7vw;
+    padding-top: 4vh;
+    font-size: 4vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sub-heading-para{
+    color: rgba(203, 148, 54, 0.959) ;
+    margin: 2vh 8.7vw;
+    font-size: 2.7vh;
+}
+.footer{
+    position: absolute;
+    bottom: 6.9vh;
+    width: 100vw;
+}
+.header{
+    width: 100vw;
+    height: 13vh;
+}
+ .backbtn_ofIntroPlay{
+    margin-top: 6vh;
+    margin-left: 6vw;
+}
+.nextbtn_ofIntroPlay{
+    position: relative;
+    left: 87vw;
+} 
+.btn_ofQuestions{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.1vh;
+    width: 12vh;
+    height: 6.5vh;
+    margin-right: 8vw;
+    padding: 1.7vh 2vw;
+    border: 2px solid rgba(248, 188, 6, 0.466) ;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px rgba(248, 188, 6, 0.466)  ;
+    transition: .5s ease;
+}
+.btn_ofQuestions:hover{
+    background-color: rgba(248, 159, 6, 0.959) ;
+        border: 2px solid black;
+        color: black;
+        box-shadow: 3px 4px 5px rgba(248, 188, 6, 0.466)  ;
+    }
+    .sub-main-block{
+        box-shadow: 10px 10px 15px  rgba(40, 39, 39, 0.384);
+        background: rgba(0, 0, 0, 0.6);
+        height: 70vh;
+        width: 60%;
+        margin-left:20% ;
+        border-radius: 18px;
+    }
+    .ghost_names{
+        text-decoration: none;
+        margin-left:8.7vw ;
+    }
+    .ghost_names li{
+    color: rgba(203, 148, 54, 0.959) ;
+    padding-top: 1vh;
+    font-size: 2.7vh;
+    }

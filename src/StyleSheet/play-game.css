@@ -39,7 +39,7 @@
 }
 .user-data-collection-heading h1{
     color: black;
-    font-size: 1.9vw;
+    font-size: 1.6vw;
     padding:2vh;
 }
 .user-data-input-name{
@@ -112,7 +112,15 @@ background-color: rgba(248, 159, 6, 0.959) ;
     color: black;
     box-shadow: 3px 4px 5px rgba(248, 188, 6, 0.466)  ;
 }
+.notclickbtn{
+    opacity: .4;
+    cursor: none;
+}
 .user-data-collection-next-link{
+    opacity: 1;
+    cursor: pointer;
+}
+.nextbtnOfPlay{
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -123,7 +131,6 @@ background-color: rgba(248, 159, 6, 0.959) ;
     padding: 1.7vh 2vw;
     border: 2px solid rgba(248, 188, 6, 0.466) ;
     border-radius: 20px;
-    cursor: pointer;
     box-shadow: 3px 3px 4px rgba(248, 188, 6, 0.466)  ;
     transition: .5s ease;
 }

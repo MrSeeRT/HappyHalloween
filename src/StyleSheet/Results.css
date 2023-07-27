@@ -1,0 +1,13 @@
+.thisisquestion-result{
+    display: flex;
+    justify-content: center;
+}
+.extra-black-layer-result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.extra-sub-main-block-result{
+    margin: 0;
+    padding: 0;
+}
