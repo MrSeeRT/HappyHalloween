@@ -73,7 +73,6 @@ const questions = [{
 const Question_1 = () => {
   const [current, setCurrent] = useState(0);
   const [ans, setAns] = useState(" ")
-  // console.log(questions[current])
   useEffect(() => {
     if(ans==="yes" || ans === "no"){
       let element = document.getElementById("next-button");
@@ -105,7 +104,6 @@ const Question_1 = () => {
   return (
     <>
    <div className="main-block-quiz">
-    {/* {console.log(current+1)} */}
       <div className="black-layer-quiz">
         <header className='header-quiz'>
         <Link to="/" className="btn_ofQuestions backbtn_ofIntroPlay-quiz" onClick={()=>{sessionStorage.clear()}}>

@@ -4,7 +4,6 @@ import Home_Css from './StyleSheet/Home_Css.css';
 
 const Home = () => {   
     var x = window.matchMedia("(max-width: 600px)");
-    // console.log(x)
     if(x.matches){
         const dotting= setInterval(function(){
             setTimeout(function(){

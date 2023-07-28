@@ -17,33 +17,18 @@
 }
 .photo-section{
     position: relative;
-    /* background-color: red; */
-    /* background: url(/public/Photos/1052gravecopy.png); */
     height: 100vh;
         width: 100vw;    
 }
 .grave-picture{
-    /* background-color: blue; */
     position: absolute;
     height: 100vh;
     width: 100vw;
-    /* height: 100%;
-    width: 100%; */
     object-fit: contain;
-    /* top: 3.5%; */
-    /* left: 10%; */
-    /* height: 125vh; */
-    /* top: -12vh; */
     animation: photo-zoom 1s;
-    /* border: 2px solid red; */
 }
-/* .btn-section{
-    width: 25vw;
-    position: absolute;
-} */
 .btn-section-link{
     position: absolute;
-    /* background-color: red; */
     bottom: 30%;
     left: 25vw;
     font-size: 2.1vh;
@@ -59,7 +44,6 @@
     font-size: 1.8vh;
     width: 100%;
     height: 100%;
-    /* padding: 10px; */
     border-radius: 13px;
     display: flex;
     align-items: center;
@@ -85,7 +69,6 @@
 }
 @media screen and (max-width: 850px) {
     .grave-picture {
-      /* background-color: red; */
       height: 100%;
       width: 100%;
     }

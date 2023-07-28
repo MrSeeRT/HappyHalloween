@@ -37,8 +37,6 @@
   width: 100%;
   position: absolute;
   bottom: 25%;
-
-  /* left: 5vw; */
 }
 .submission-result-link {
   text-decoration: none;
@@ -83,9 +81,6 @@
 }
 
 @media screen and (max-width: 1550px) {
-  /* .sub-main-block-result {
-    width: 60%;
-  } */
   .submission-result-link {
     width: 40%;
     margin-left: 7%;

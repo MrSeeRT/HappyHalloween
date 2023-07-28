@@ -42,14 +42,8 @@
     position: relative;
     
 }
-/* .image{
-    padding-top: 24px;
-    height: 115px;
-    width: 120px;
-} */
 .button{
     display: flex;
-    /* background-color: red; */
     align-items: center;
     justify-content: center;
     height: 50%;
@@ -87,8 +81,6 @@
     box-shadow: 4px 4px 5px rgba(248, 188, 6, 0.466)  ;
 }
 .logo{
-    /* width: 30vw;
-    height: 10vh; */
     width: 60vh;
   height: 30vh;
   object-fit: contain;
@@ -97,14 +89,10 @@
 
    position: absolute;
    bottom: -4vh;
-   /* left: 30%; */
-   /* transform: translateY(90px); */
     opacity: .8;
 }
 .snow{
     position:absolute;
-    /* width: 30vw; */
-    /* background-color: red; */
     display: flex;
     animation-name: snoww;
     animation-duration: 30s;
@@ -115,8 +103,6 @@
 }
 .snow-2{
     position:absolute;
-    /* width: 30vw;
-    left: 30vw; */
     display: flex;
     animation-name: snoww;
     animation-duration: 60s;
@@ -126,15 +112,12 @@
 }
 .snow-3{
     overflow-y: hidden;
-    /* left: 60vw; */
     position:absolute;
     display: flex;
-    /* width: 30vw; */
 }
 
 .snows-1{
     background-color: #ffffffcc;
-    /* background-color: red; */
     width: 2px;
     height: 2px;
     margin-top: 40px;

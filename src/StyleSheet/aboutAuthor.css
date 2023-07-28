@@ -23,10 +23,8 @@
 .back-btn-link{
     margin-top: 5vh;
     margin-left: 8.5%;
-    /* font-size: 2.1vh; */
     width: 11vh;
     height: 6.3vh;
-    /* width: 8%; */
     border: 2px solid rgba(248, 188, 6, 0.466) ;
     border-radius: 16px;
     display: flex;
@@ -40,13 +38,10 @@
 .backbtn{
     color: #fff; 
     font-size: 2.1vh;
-    /* padding: 15px; */
     width: 100%;
     height: 100%;
-    /* font-size: large; */
     background-color: rgba(0, 0, 0, 0.142);
     border: none;
-    /* border-radius: 20px; */
     transition: .4s ease;
     cursor: pointer;
 }
@@ -345,9 +340,7 @@
 }
 .read-me-link{
     position: absolute;
-   /* width: 5%; */
    border-radius: 10px;
-    /* height: 3vh; */
     width: 11vh;
     height: 5vh;
     bottom: 36vh;
@@ -362,7 +355,6 @@
 .read-me-btn{
     background-color: rgba(20, 20, 20, 0.475);
     color: #ffffffb3;
-    /* padding: 12px 13px; */
     font-size: 1.6vh;
     border-radius: 10px;
     border: none;

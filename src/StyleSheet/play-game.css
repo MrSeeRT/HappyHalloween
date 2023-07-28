@@ -63,13 +63,11 @@
     border-radius: 7px;
 }
 .user-data-input-que{
-    /* margin-top: vh; */
     padding-top: 3vh;
     height: 60%;
     margin-left: 4vw;
 }
 .user-data-input-que h3{
-    /* padding-left: .5vw; */
     font-size: 2.1vh;
 
 }
@@ -100,8 +98,6 @@
     font-size: 2.1vh;
     width: 12vh;
     height: 6.5vh;
-    /* width: 8vw;
-    height: 7vh; */
     margin-left: 8vw;
     padding: 1.7vh 2vw;
     border: 2px solid rgba(248, 188, 6, 0.466) ;
@@ -132,8 +128,6 @@ background-color: rgba(248, 159, 6, 0.959) ;
     font-size: 2.1vh;
     width: 12vh;
     height: 6.5vh;
-    /* width: 8vw;
-    height: 7vh; */
     margin-right: 8vw;
     padding: 1.7vh 2vw;
     border: 2px solid rgba(248, 188, 6, 0.466) ;
