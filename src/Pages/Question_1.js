@@ -82,6 +82,7 @@ const Question_1 = () => {
    },[ans])
 
    const nextQuestion = () => {
+    if(ans==="yes" || ans === "no"){
     setCurrent(current+1);
     let element = document.getElementById("next-button");
     element.classList.remove("btn_ofQuestions");
@@ -96,14 +97,17 @@ const Question_1 = () => {
     }
   }
   setAns(" ");
-  if(current== 8){
-    window.location ="/result";
+  }else{
+    alert("Please choose yes or no")
   }
-   }
-   if(current <=8){
-  return (
-    <>
-   <div className="main-block-quiz">
+ 
+}
+
+
+  if(current< 8){
+    return (
+      <>
+    <div className="main-block-quiz">
       <div className="black-layer-quiz">
         <header className='header-quiz'>
         <Link to="/" className="btn_ofQuestions backbtn_ofIntroPlay-quiz" onClick={()=>{sessionStorage.clear()}}>
@@ -135,8 +139,45 @@ const Question_1 = () => {
       </div>
     </div> 
     </>
+    )
+  }
+else{
+  return (
+    <>
+       <div className="main-block-quiz">
+      <div className="black-layer-quiz">
+        <header className='header-quiz'>
+        <Link to="/" className="btn_ofQuestions backbtn_ofIntroPlay-quiz" onClick={()=>{sessionStorage.clear()}}>
+               Home
+              </Link>
+        </header>
+        <div className="sub-main-block-quiz">
+        <span >{current+1}/10</span>
+          <h2 className="thisisquestion">
+             { questions[current].question}
+          </h2>
+          <div className="options-div">
+            <div className="options">{ questions[current].a}</div>
+            <div className="options">{ questions[current].b}</div>
+            <div className="options">{ questions[current].c}</div>
+            <div className="options">{ questions[current].d}</div>
+          </div>
+          <div className="submission">
+            <button type='submit'  className={ans === "yes" ?  'setanswer' : ' '}  onClick={() => setAns("yes")} >Yes</button>
+            <button type='submit' className={ans === "no" ?  'setanswer' : ' '} onClick={() => setAns("no")} >No</button>
+          </div>
+      </div>
+
+      <footer className='footer-quiz'>
+      <Link  to={`${ ans==="yes" || ans === "no" ? "/result" : "/play/question_1"}`} className=" nextbtn_ofIntroPlay-quiz not-clickable" id='next-button' onClick={nextQuestion}>
+               Next
+              </Link>
+      </footer>
+      </div>
+    </div> 
+    </>
   ) 
    }
 }
 
-export default Question_1
+export default Question_1 ;

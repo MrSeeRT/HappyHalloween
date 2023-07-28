@@ -10,16 +10,15 @@ const [Text, setText] = useState("Happy Halloween!")
       let element=document.getElementById("nextbtn")
       element.classList.add("user-data-collection-next-link")
        a=1;
-      element.classList.remove("notclickbtn")
+      element.classList.remove("not-clickable")
     }
   },[Text])
 const saveUsername=()=>{
   if(a==1){
     let userName = document.getElementById("inputusername").value;
-console.log(userName)
 sessionStorage.setItem("name",userName)
-    window.location = "/play/intro"
-  }else{
+  //   window.location = "/play/intro"
+   }else{
     alert("Please fill the details")
   }
  }
@@ -55,9 +54,9 @@ sessionStorage.setItem("name",userName)
               <Link to="/" className="user-data-collection-back-link">
                 Back
               </Link>
-              <span className="nextbtnOfPlay notclickbtn" id="nextbtn" onClick  = {saveUsername} >
+              <Link to={`${ Text!=null && Text!="Happy Halloween!" && Text!="" ? "/play/intro" : "/play"}`}  className="nextbtnOfPlay not-clickable" id="nextbtn" onClick  = {saveUsername} >
                 Next
-              </span>
+              </Link>
             </div>          
         </div>
       </div>
