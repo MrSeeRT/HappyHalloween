@@ -11,16 +11,10 @@ import Results from '../Pages/Results';
 
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
-// const Home= lazy(()=>{import( '../Home')})
-// const Play= lazy(()=>{import('./Play')})
-// const Game= lazy(()=>{import(  './Game')})
-// const About= lazy(()=>{import( './About')})
-// const ReadMe= lazy(()=>{import( '../Pages/ReadMe')})
-
-
 
 const App = () => {
   return (
+
     <>
    <Router>
         <Routes>

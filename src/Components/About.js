@@ -35,7 +35,7 @@ const About = () => {
 
                <div className="left-arrow">
                     <Link to="/" className='back-btn-link'>
-                          <button className='backbtn'>BACK</button>
+                          <button className='backbtn'>Back</button>
                        </Link>
               </div>
 

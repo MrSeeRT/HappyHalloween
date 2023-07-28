@@ -11,6 +11,7 @@
     position: absolute;
     bottom: 6.9vh;
     width: 100vw;
+    /* background-color: red; */
 }
 .header-quiz{
     width: 100vw;
@@ -24,6 +25,7 @@
 .nextbtn_ofIntroPlay-quiz{
     position: relative;
     left: 87vw;
+    /* background-color: blue; */
 } 
 .not-clickable{
     cursor: not-allowed;
@@ -66,9 +68,10 @@
         box-shadow: 10px 10px 15px  rgba(40, 39, 39, 0.384);
         background: rgba(0, 0, 0, 0.6);
         position: absolute;
-        height: 70vh;
-        width: 60%;
-        margin-left:20% ;
+        margin-top: 4%;
+        height: 60vh;
+        width: 50%;
+        margin-left:26% ;
         border-radius: 18px;
     }
     .sub-main-block-quiz span:nth-child(1){
@@ -83,21 +86,23 @@
         display: flex;
         /* background-color: red; */
         /* justify-content: center; */
-        font-size: 3vh;
-        margin-top: 12vh;
+        font-size: 2.7vh;
+        margin-top: 9vh;
         padding-left: 14%;
         padding-right: 14%;
     }
     .options-div{
+        /* background-color: red; */
         display: grid;
         grid-template-columns: auto auto ;
-        margin-top: 5vh;
+        margin-top: 1vh;
     }
     .options{
+        /* background-color: blue; */
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 6vh 4vh;
+        padding: 4.6vh 4vh;
         font-size: 2.3vh;
     }
     .submission{
@@ -133,3 +138,21 @@
             box-shadow: 3px 4px 5px rgba(248, 188, 6, 0.466)  ;
         }
        
+        @media screen and (max-width: 1000px) {
+            .thisisquestion{
+                font-size: 2.3vh;
+            }
+            .nextbtn_ofIntroPlay-quiz{
+                left: 80vw;
+            }
+            .options{
+                padding-bottom: 2vh;
+            }
+            
+          }
+          @media screen and (max-width: 850px) {
+            .options{
+                padding-top: 4.8vh;
+                padding-bottom: 3vh;
+            }
+          }

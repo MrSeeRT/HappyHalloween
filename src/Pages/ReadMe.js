@@ -9,13 +9,13 @@ const ReadMe = () => {
     <div className="readme-container">
         <div className="readme-layout">
             <div className="photo-section">
-              <img src={picture}  alt="unavailable" className='grave-picture' />
+              <img src={picture}  alt="unavailable" className='grave-picture ' />
             </div>
-            <div className="btn-section">
+            {/* <div className="btn-section"> */}
                 <Link  to="/about-author" className='btn-section-link'>
                 <button className='btn-section-button'>Back</button>
                 </Link>
-            </div>
+            {/* </div> */}
 
         </div>
     </div>

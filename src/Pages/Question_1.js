@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import "../StyleSheet/question_1.css"
 
 const questions = [{
-  "question" : "Is your option present in following options ?",
+  "question" : "Is your option present in the following options?",
   "a" : "Jinn",
   "b" : "Onryo",
   "c" : "Revenant",
@@ -18,7 +18,7 @@ const questions = [{
   "d" : " "
 },
 {
-  "question" : "Is your option present in following options ?",
+  "question" : "Is your word present in the following options?",
   "a" : "Revenant",
   "b" : "Shade",
   "c" : "Yokai",
@@ -33,7 +33,7 @@ const questions = [{
   "d" : " "
 },
 {
-  "question" : "Is your option present in following options ?",
+  "question" : "Is your word present in the following options?",
   "a" : "Onryo",
   "b" : "Phantom",
   "c" : "Shade",
@@ -48,7 +48,7 @@ const questions = [{
   "d" : " "
 },
 {
-  "question" : "Is your option present in following options ?",
+  "question" : "Is your word present in the following options?",
   "a" : "Banshee",
   "b" : "Jinn",
   "c" : "Yokai",
@@ -62,7 +62,7 @@ const questions = [{
   "c" : " ",
   "d" : " "
 },
-{"question" : "Is your option present in following options ?",
+{"question" : "Is your word present in the following options?",
 "a" : "Banshee",
 "b" : "Hantu",
 "c" : "Raiju",

@@ -2,11 +2,36 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Home_Css from './StyleSheet/Home_Css.css';
 
-const Home = () => {
+const Home = () => {   
+    var x = window.matchMedia("(max-width: 600px)");
+    // console.log(x)
+    if(x.matches){
+        const dotting= setInterval(function(){
+            setTimeout(function(){
+                document.getElementById("dot").innerHTML="."
+            },1000);
+            setTimeout(function(){
+                document.getElementById("dot").innerHTML=".."
+            },2000);
+            setTimeout(function(){
+                document.getElementById("dot").innerHTML="..."
+            },3000)
+        },3000)
+      return(
+        <>
+        <div className="container-biggerScreen">
+            <div className="layoff-biggerScreen">
+        <div className='biggerScreen'>Please open in bigger screen (min-width: 600px) <span id="dot"></span> </div>
+        </div>
+        </div>
+        </>
+      )
+    }
+    else{
   return (
     <div className='container'>
         <div className='layer'>
-        <div className="snow">
+         <div className="snow">
             <div className='snows-1'></div>
             <div className='snows-2'></div>
             <div className='snows-4'></div>
@@ -18,7 +43,7 @@ const Home = () => {
             <div className='snows-9'></div>
         </div>
 
-        <div className="snow-2">
+       <div className="snow-2">
             <div className='snows-7'></div>
             <div className='snows-3'></div>
             <div className='snows-1'></div>
@@ -61,6 +86,7 @@ const Home = () => {
         </div>
     </div>
   )
+}
 }
 
 export default Home

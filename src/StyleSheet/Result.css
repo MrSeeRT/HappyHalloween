@@ -1,83 +1,119 @@
-.main-block-result{
-    background: url(/public/Photos/27994781.jpg);
-    height: 100vh;
-    background-size: cover;
+.main-block-result {
+  background: url(/public/Photos/27994781.jpg);
+  height: 100vh;
+  background-size: cover;
 }
-.black-layer-result{
-    background: rgba(0, 0, 0, 0.4);
-    height: 100vh;
+.black-layer-result {
+  background: rgba(0, 0, 0, 0.4);
+  height: 100vh;
 }
-.header-result{
-    width: 100vw;
-    height: 13vh;
+.header-result {
+  width: 100vw;
+  height: 13vh;
 }
 
- .backbtn_ofResult{
-    margin-top: 6vh;
-    margin-left: 6vw;
+.backbtn_ofResult {
+  margin-top: 6vh;
+  margin-left: 6vw;
 }
-    .sub-main-block-result{
-        box-shadow: 10px 10px 15px  rgba(40, 39, 39, 0.384);
-        background: rgba(0, 0, 0, 0.6);
-        position: absolute;
-        height: 60vh;
-        width: 50%;
-        margin-top: 4%;
-        margin-left:26% ;
-        border-radius: 18px;
-    }
-    .thisisquestion-result{
-        font-size: 3vh;
-        margin-top: 12vh;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-    .submission-result{
-        display: flex;   
-        width: 100%;
-        position: absolute;
-        bottom: 25%;
+.sub-main-block-result {
+  box-shadow: 10px 10px 15px rgba(40, 39, 39, 0.384);
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  height: 60vh;
+  width: 50%;
+  margin-top: 4%;
+  margin-left: 26%;
+  border-radius: 18px;
+}
+.thisisquestion-result {
+  font-size: 3vh;
+  margin-top: 12vh;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.submission-result {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  bottom: 25%;
 
-        /* left: 5vw; */
-    }
-    .submission-result-link{
-    text-decoration: none;
-    position: relative;
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.4);
-    margin-left:13% ;
-    width: 30%;
-    height: 6.5vh;
-    border: 2px solid rgba(248, 188, 6, 0.466) ;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px rgba(248, 188, 6, 0.466)  ;
-    transition: .5s ease;
-    }
-    .submission-result-link:hover{
-        background-color: rgba(248, 159, 6, 0.959) ;
-            border: 2px solid black;
-            color: black;
-            box-shadow: 3px 4px 5px rgba(248, 188, 6, 0.466)  ;
-        }
-        .submission-result-link span{
-            position: absolute;
-            font-size: 2.1vh;
-            height: 100%;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .thisisquestion-result{
-            display: flex;
-            justify-content: center;
-        }
-        .extra-black-layer-result{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .extra-sub-main-block-result{
-            margin: 0;
-            padding: 0;
-        }
+  /* left: 5vw; */
+}
+.submission-result-link {
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-left: 13%;
+  width: 30%;
+  height: 6.5vh;
+  border: 2px solid rgba(248, 188, 6, 0.466);
+  border-radius: 20px;
+  box-shadow: 3px 3px 4px rgba(248, 188, 6, 0.466);
+  transition: 0.5s ease;
+}
+.submission-result-link:hover {
+  background-color: rgba(248, 159, 6, 0.959);
+  border: 2px solid black;
+  color: black;
+  box-shadow: 3px 4px 5px rgba(248, 188, 6, 0.466);
+}
+.submission-result-link span {
+  position: absolute;
+  font-size: 2.1vh;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thisisquestion-result {
+  display: flex;
+  justify-content: center;
+}
+.extra-black-layer-result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.extra-sub-main-block-result {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1550px) {
+  /* .sub-main-block-result {
+    width: 60%;
+  } */
+  .submission-result-link {
+    width: 40%;
+    margin-left: 7%;
+  }
+  .submission-result-link span{
+    font-size: 2vh;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .sub-main-block-result {
+    width: 70%;
+  }
+  .submission-result-link span{
+    font-size: 1.9vh;
+  }
+}
+@media screen and (max-width: 850px) {
+  .submission-result-link {
+    width: 40%;
+    margin-left: 7%;
+  }
+  .submission-result-link span{
+    font-size: 1.8vh;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .thisisquestion-result {
+    font-size: 2.3vh;
+  }
+}
